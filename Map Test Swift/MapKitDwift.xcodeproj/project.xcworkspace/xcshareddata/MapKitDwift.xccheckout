@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF30A6FF-983E-4860-90C6-969DFC36C274</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MapKitDwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EF834D4A14F59A67E53BF60E176C9A852C78B3B</key>
+		<string>github.com:qinaode/MapKit-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Map Test Swift/MapKitDwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EF834D4A14F59A67E53BF60E176C9A852C78B3B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:qinaode/MapKit-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EF834D4A14F59A67E53BF60E176C9A852C78B3B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EF834D4A14F59A67E53BF60E176C9A852C78B3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MapKit-Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

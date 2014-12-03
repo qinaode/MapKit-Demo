@@ -12,8 +12,8 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate, UITextFieldDelegate {
                             
-    @IBOutlet var slider : UISlider
-    @IBOutlet var map : MKMapView
+    @IBOutlet var slider : UISlider?
+    @IBOutlet var map : MKMapView?
     let manager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -26,22 +26,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITextFieldDe
             manager.startUpdatingLocation()
         }
         
-        slider.addTarget(self, action: Selector("sliderMoved"), forControlEvents: UIControlEvents.ValueChanged)
+        slider!.addTarget(self, action: Selector("sliderMoved"), forControlEvents: UIControlEvents.ValueChanged)
     }
     
     func sliderMoved() {
-        let delta : Double = Double(slider.value)
+        let delta : Double = Double(slider!.value)
         let span = MKCoordinateSpanMake(delta, delta)
-        let center = map.userLocation.location.coordinate
+        let center = map!.userLocation.location.coordinate
         var zoomRegion : MKCoordinateRegion = MKCoordinateRegion(center: center, span: span)
-        map.setRegion(zoomRegion, animated: false)
+        map!.setRegion(zoomRegion, animated: false)
     }
     
     func locationManager(manager: CLLocationManager!,
         didChangeAuthorizationStatus status: CLAuthorizationStatus) {
             
         if status != CLAuthorizationStatus.NotDetermined {
-            map.showsUserLocation = true
+            map!.showsUserLocation = true
         }
     }
     
